@@ -3,7 +3,7 @@
 #### Participate in the "CES Wind Turbine Challenge" - a social game based on an Ethereum Blockchain and win super cool prizes !
 
 ### How to play ?
-Go to http://ces.blochain-studio.com/game  and fill your Twitter username to run the CES Wind Turbine and produce as much green energy as possible.
+Go to https://ces.blochain-studio.com/game  and fill your Twitter username to run the CES Wind Turbine and produce as much green energy as possible.
 
 ### When the game ends ?
 
