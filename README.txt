@@ -1,31 +1,38 @@
-Paradigm Shift by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+## CES Wind Turbine Challenge
 
+#### Participate in the "CES Wind Turbine Challenge" - a social game based on an Ethereum Blockchain and win super cool prizes ;).
 
-Say hello to Paradigm Shift, my first addition to HTML5 UP in more than a year (!!!).
-Took things in a slightly different direction with this one, partly to mess with CSS
-grid (which this one relies on pretty heavily) but mostly to get back to making weirder
-and more experimental designs/layouts. Anyway, hope you dig it, and thanks for the
-continued support despite the lack of updates :)
+### How to play ?
+Go to http://ces.blochain-studio.com/game  and fill your Twitter username to run the CES Wind Turbine and produce as much green energy as possible.
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+### When the game ends ?
 
-(* = not included)
+Friday, January 11 at 18:00 (in fact, when block number 4791131 on ropsten network will be produced), we will stop the wind turbine and the first five producers will be rewarded with very interesting prizes.
 
-AJ
-aj@lkn.io | @ajlkn
+### Prizes
 
+ 1. [Legder Nano S](https://www.ledger.com/products/ledger-nano-s)
+ 2. [Book: Mastering Ethereum: Building Smart Contracts and DApps](https://www.amazon.com/Mastering-Ethereum-Building-Smart-Contracts/dp/1491971940)
+ 3. Blockchain Studio Cap and Shirt 🧢 + 👕
+ 4. Blockchain Studio Mug 🍺
+ 5. Blockchain Studio Candies (Gummy bears) 🍬
 
-Credits:
+We will contact the top five producers by tweeter to get their details and send them their prize.
 
-	Demo Images:
-		Unsplash (unsplash.com)
+### What do I need to play
 
-	Icons:
-		Font Awesome (fontawesome.io)
+ - Chrome or firefox.
+ - [Metamask](https://metamask.io/) connected on ropsten network
 
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+### How much energy is produced by the CES Wind Turbine?
+
+A 2 MW wind turbine produces about 4400 000 kWh per year.
+We consider that during the CES, the wind turbine will produce 0.13952308472 kWh per second.
+
+### How player energy production is calculated?
+
+To run the CES wind turbine, you send a transaction, that will be recorded on the blockchain, to a smart contract. This transaction is attached to a block that can be identified by its block number. Every 20 seconds or so, a new block is produced on the blockchain. By counting the number of blocks when you were running the wind turbine we can determine how much energy you produced. For each block (20 seconds), the turbine produces 0.13952308472 * 20 = 2.8 kWh.
+
+### Under the hood
+
+If you are interested in this topic, you can see the code of smart contract and  web application on our [github repository](https://github.com/blockchain-studio/rockside-guitar-dapp-tutorial).
