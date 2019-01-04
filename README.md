@@ -7,7 +7,7 @@ Go to http://ces.blochain-studio.com/game  and fill your Twitter username to run
 
 ### When the game ends ?
 
-Friday, January 11 at 18:00 (in fact, when block number #4791131 on ropsten network will be produced), we will stop the wind turbine and the first five producers will be rewarded with very interesting prizes.
+Friday, January 11 at 18:00 (in fact, when block number #4791131 on ropsten network will be produced), we will stop the wind turbine and the first five producers will be rewarded with very cool prizes ;)
 
 ### Prizes
 
